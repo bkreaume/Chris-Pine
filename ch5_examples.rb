@@ -1,4 +1,5 @@
 # #Chris Pine Chapter 5
+
 # #5.1
 # var1 = 2
 # var2 ='5'
@@ -12,6 +13,7 @@
 # puts 'Who asked you about 5 or whatever'.to_i
 # puts 'Your momma did!!'.to_f
 # puts 3.to_i
+
 # # 5.2
 # puts 20
 # puts 20.to_s
