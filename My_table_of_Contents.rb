@@ -29,16 +29,15 @@ while true # Enter chapter title and page number
     ch_page = gets.chomp
     puts
   end
-  table_contents.push [ch_num, ch_title, ch_page]
+  table_contents.push [ch_title, ch_page]
 end
 # starts disply of Table of Contents
 puts title.center(60)
 puts
 
 table_contents.sort_by(&:last).each do |chap|
-  num = chap[0]
-  name = chap[1]
-  page = chap[2]
+  name = chap[0]
+  page = chap[1]
   beginning = 'Chapter: ' + ch_num.to_s + '     ' + name
   ending = 'Page ' + page.to_s
 
