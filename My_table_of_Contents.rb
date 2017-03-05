@@ -24,8 +24,10 @@ while true # Enter chapter title and page number
     puts 'Enter the Chapter Title'
     ch_title = gets.chomp
     ch_title = ch_title.split.map(&:capitalize).join(' ') #capitalizes first letter in each word
+    puts
     puts 'Enter the Chapter starting page number'
     ch_page = gets.chomp
+    puts
   end
   table_contents.push [ch_num, ch_title, ch_page]
 end
